@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/skins">
+        <file alias="background.png">skins/background.png</file>
+        <file alias="player1.png">skins/player1.png</file>
+        <file alias="player2.png">skins/player2.png</file>
+        <file alias="player3.png">skins/player3.png</file>
+        <file alias="player4.png">skins/player4.png</file>
+        <file alias="player5.png">skins/player5.png</file>
+        <file alias="player6.png">skins/player6.png</file>
+        <file alias="enemy.png">skins/enemy.png</file>
+        <file alias="bgm.mp3">skins/bgm.mp3</file>
+        <file alias="bgm_he.mp3">skins/bgm_he.mp3</file>
+        <file alias="bgm_be.mp3">skins/bgm_be.mp3</file>
+    </qresource>
+</RCC>
