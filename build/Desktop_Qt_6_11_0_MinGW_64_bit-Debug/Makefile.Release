@@ -298,6 +298,8 @@ release/main.o: ../../main.cpp ../../gamewidget.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtGui/QPixmap \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QPointF \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRectF \
+		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRandomGenerator \
+		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/qrandom.h \
 		../../playerfish.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtMultimedia/QAudioOutput \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtMultimedia/qaudiooutput.h \
@@ -820,6 +822,8 @@ release/enemyfish.o: ../../enemyfish.cpp ../../enemyfish.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtGui/QPixmap \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QPointF \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRectF \
+		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRandomGenerator \
+		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/qrandom.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QtMath
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\enemyfish.o ..\..\enemyfish.cpp
 
@@ -968,6 +972,8 @@ release/gamewidget.o: ../../gamewidget.cpp ../../gamewidget.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtGui/QPixmap \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QPointF \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRectF \
+		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRandomGenerator \
+		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/qrandom.h \
 		../../playerfish.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtMultimedia/QAudioOutput \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtMultimedia/qaudiooutput.h \
@@ -1051,8 +1057,6 @@ release/gamewidget.o: ../../gamewidget.cpp ../../gamewidget.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtGui/qbitmap.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QCoreApplication \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtGui/QPaintEvent \
-		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QRandomGenerator \
-		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/qrandom.h \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtGui/QResizeEvent \
 		D:/MySoftware/Qt6.11/6.11.0/mingw_64/include/QtCore/QtMath
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\gamewidget.o ..\..\gamewidget.cpp

@@ -450,15 +450,10 @@ void GameWidget::onTick()
                         player_->setTier(newTier);
                         player_->setRadius(playerRadiusForTier(newTier));
                         applyPlayerSkin();
-                        if (newTier >= kPlayerWinTier) {
-                            finalPhase_ = true;
-                            finalSpawnAccumulator_ = 0;
-                            player_->setBoostActive(false);
-                        }
                     }
                 }
                 enemies_.erase(enemies_.begin() + static_cast<qsizetype>(i));
-                if (finalPhase_ && enemies_.empty() && finalSpawnAccumulator_ >= 5.0) {
+                if (score_ >= 1200) {
                     gameWon_ = true;
                     highScore_ = qMax(highScore_, score_);
                     if (!winSoundPlayed_) {
@@ -543,7 +538,7 @@ void GameWidget::paintEvent(QPaintEvent *event)
         QFont big(QStringLiteral("Microsoft YaHei UI"), 22, QFont::Bold);
         p.setFont(big);
         p.drawText(rect(), Qt::AlignCenter,
-                   QStringLiteral("嗝~派大星吃完所有憨八嘎！\n\n本局得分: %1\n最高纪录: %2\n\n按 R 重新开始")
+                   QStringLiteral("你获得了胜利，获得作者香吻一枚……^w^\n\n本局得分: %1\n最高纪录: %2\n\n按 R 重新开始")
                        .arg(score_)
                        .arg(highScore_));
     } else if (gameOver_) {
